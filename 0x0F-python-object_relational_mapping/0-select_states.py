@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+"""
+This script connects to a MySQL database and retrieves all records from the
+'states' table in ascending order by 'id'. It requires three command line
+arguments: MySQL username, MySQL password, and the database name.
+
+Usage:
+    ./0-select_states.py <mysql_username> <mysql_password> hbtn_0e_0_usa
+"""
+
 import MySQLdb
 import sys
 

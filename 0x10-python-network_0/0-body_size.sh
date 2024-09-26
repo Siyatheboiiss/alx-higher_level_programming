@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-
+#!/bin/bash
+# This script tells you the size of the body when a request is made to a page
 # Check if a URL is provided
 if [ -z "$1" ]; then
   echo "Usage: $0 <URL>"

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 class Rectangle {
   constructor(w, h) {
     if (this.isValid(w) && this.isValid(h)) {

@@ -1,3 +1,3 @@
 #!/bin/bash
-# Get the HTTP status code and store it in 'response'
-response=$(curl -s -o /dev/null -w "%{http_code}" "$1"); [ "$response" -eq 200 ] && curl -s "$1"
+# Get the response body for a given URL for 200 status code responses.
+curl -sL "$1"

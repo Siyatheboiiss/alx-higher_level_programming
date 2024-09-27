@@ -1,3 +1,3 @@
 #!/bin/bash
-# This script tells you the size of the body when a request is made to a page
+# Get the byte size of the HTTP response header for a given URL.
 curl -s "$1" | wc -c
